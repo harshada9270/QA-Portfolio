@@ -6,7 +6,7 @@
     <style>
         @page {
             size: A4 portrait;
-            margin: 8mm 14mm 8mm 14mm;
+            margin: 10mm 15mm 10mm 15mm;
         }
         * {
             margin: 0;
@@ -16,19 +16,21 @@
             color: #111;
         }
         body {
-            font-size: 9.8pt;
-            line-height: 1.28;
+            font-size: 9.6pt;
+            line-height: 1.25;
             background: #fff;
-            padding: 0;
+            padding: 10mm 15mm;
+            max-width: 210mm;
+            margin: 0 auto;
         }
         .header {
             text-align: center;
-            margin-bottom: 8px;
+            margin-bottom: 7px;
         }
         .name {
-            font-size: 15pt;
+            font-size: 14.5pt;
             font-weight: bold;
-            margin-bottom: 2px;
+            margin-bottom: 1.5px;
             color: #000;
         }
         .title {
@@ -36,53 +38,55 @@
             margin-bottom: 2px;
         }
         .links {
-            font-size: 9.5pt;
+            font-size: 9.3pt;
             margin-bottom: 2px;
         }
         .links a, .contact a {
-            color: #000;
+            color: #0000ee;
             text-decoration: underline;
         }
         .contact {
-            font-size: 9.5pt;
+            font-size: 9.3pt;
         }
         .section-title {
-            font-size: 11pt;
+            font-size: 10.5pt;
             font-weight: bold;
             border-bottom: 1px solid #111;
             padding-bottom: 1px;
-            margin-top: 7px;
-            margin-bottom: 4px;
+            margin-top: 6px;
+            margin-bottom: 3.5px;
+            text-transform: uppercase;
         }
         .summary-text {
             text-align: justify;
-            font-size: 9.5pt;
-            line-height: 1.28;
+            font-size: 9.3pt;
+            line-height: 1.24;
         }
         .edu-header {
             display: flex;
             justify-content: space-between;
             font-weight: bold;
-            font-size: 9.8pt;
+            font-size: 9.5pt;
         }
         .edu-sub {
             display: flex;
             justify-content: space-between;
             font-style: italic;
-            font-size: 9.3pt;
-            margin-bottom: 4px;
+            font-size: 9.1pt;
+            margin-bottom: 3px;
         }
         table.edu-table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 2px;
-            margin-bottom: 5px;
-            font-size: 9pt;
+            margin-bottom: 4px;
+            font-size: 8.8pt;
         }
         table.edu-table th, table.edu-table td {
             border: 1px solid #333;
             padding: 2px 5px;
             text-align: left;
+            vertical-align: middle;
         }
         table.edu-table th {
             font-weight: bold;
@@ -91,11 +95,11 @@
         .skills-list {
             list-style: disc;
             padding-left: 16px;
-            font-size: 9.4pt;
-            line-height: 1.26;
+            font-size: 9.2pt;
+            line-height: 1.22;
         }
         .skills-list li {
-            margin-bottom: 1.5px;
+            margin-bottom: 1px;
         }
         .skills-list strong {
             font-weight: bold;
@@ -104,34 +108,34 @@
             display: flex;
             justify-content: space-between;
             font-weight: bold;
-            font-size: 9.8pt;
+            font-size: 9.5pt;
         }
         .item-sub {
             display: flex;
             justify-content: space-between;
             font-style: italic;
-            font-size: 9.2pt;
+            font-size: 9.1pt;
             margin-bottom: 2px;
         }
         ul.bullet-list {
             list-style-type: disc;
             padding-left: 16px;
-            font-size: 9.3pt;
-            line-height: 1.26;
-            margin-bottom: 5px;
+            font-size: 9.1pt;
+            line-height: 1.22;
+            margin-bottom: 4px;
         }
         ul.bullet-list li {
-            margin-bottom: 1.5px;
+            margin-bottom: 1px;
             text-align: justify;
         }
         .cert-list {
             list-style-type: disc;
             padding-left: 16px;
-            font-size: 9.3pt;
-            line-height: 1.26;
+            font-size: 9.1pt;
+            line-height: 1.22;
         }
         .cert-list li {
-            margin-bottom: 1.5px;
+            margin-bottom: 1px;
         }
     </style>
 </head>
@@ -139,7 +143,7 @@
 
     <div class="header">
         <div class="name">Harshada Ankush Kakade</div>
-        <div class="title">Full Stack &amp; AI Intern</div>
+        <div class="title">Software Testing Intern</div>
         <div class="links">
             <a href="https://github.com/harshada9270" target="_blank">GitHub</a> | 
             <a href="https://www.linkedin.com/in/harshada-kakade-854964281/" target="_blank">LinkedIn</a>
@@ -150,15 +154,15 @@
         </div>
     </div>
 
-    <div class="section-title">Professional Summary</div>
+    <div class="section-title">PROFESSIONAL SUMMARY</div>
     <p class="summary-text">
-        Computer Science student specializing in full-stack development with experience building React and Node.js applications, REST APIs, and real-time data dashboards. Passionate about scalable backend systems, modern web architectures, and AI-powered applications.
+        Computer Science student with hands-on experience in software testing, debugging, REST APIs, and web application development. Skilled in manual testing, functional testing, regression testing, test case design, API validation, and defect identification.
     </p>
 
-    <div class="section-title">Education</div>
+    <div class="section-title">EDUCATION</div>
     <div class="edu-header">
         <span>Dr. D. Y. Patil School of Science and Technology</span>
-        <span>May 2027</span>
+        <span>2027</span>
     </div>
     <div class="edu-sub">
         <span>BTech, Computer Science and Design</span>
@@ -169,9 +173,9 @@
         <thead>
             <tr>
                 <th style="width: 8%;">Sr.No.</th>
-                <th style="width: 38%;">Qualification</th>
-                <th style="width: 36%;">Board/University</th>
-                <th style="width: 18%;">Score</th>
+                <th style="width: 32%;">Qualification</th>
+                <th style="width: 44%;">Board/University</th>
+                <th style="width: 16%;">Score</th>
             </tr>
         </thead>
         <tbody>
@@ -189,25 +193,15 @@
             </tr>
             <tr>
                 <td>3</td>
-                <td>B.Tech (Pursuing) 1<sup>st</sup> Year<br>2<sup>nd</sup> Year<br>3<sup>rd</sup> Year</td>
+                <td>B.Tech (Pursuing)<br>1<sup>st</sup> Year<br>2<sup>nd</sup> Year<br>3<sup>rd</sup> year</td>
                 <td>Dr D.Y Patil School of Science and Technology</td>
-                <td>9.10 CGPA<br>9.45 CGPA<br>9.40 CGPA</td>
+                <td><br>9.1 CGPA<br>9.45 CGPA<br>9.4 CGPA</td>
             </tr>
         </tbody>
     </table>
 
-    <div class="section-title">Skills &amp; Interests</div>
-    <ul class="skills-list">
-        <li><strong>Languages:</strong> Java, JavaScript, Python, TypeScript</li>
-        <li><strong>Frontend:</strong> React, HTML5, Tailwind CSS, Bootstrap</li>
-        <li><strong>Backend:</strong> Node.js, Express.js, REST API’s, JSP, Fast API</li>
-        <li><strong>Database:</strong> MongoDB (Mongoose), MySQL, JDBC</li>
-        <li><strong>Authentication &amp; APIs:</strong> JWT Authentication, Role-Based Authorization, RESTful API Design</li>
-        <li><strong>Tools:</strong> Git, GitHub, feature branching, pull requests</li>
-        <li><strong>Leadership &amp; Management:</strong> Student Council Member; Vice President of Developers Club</li>
-    </ul>
-
     <div class="section-title">Experience</div>
+    
     <div class="item-header">
         <span>Full Stack Development Intern</span>
     </div>
@@ -216,45 +210,57 @@
         <span>Sep 2025 &ndash; Nov 2025</span>
     </div>
     <ul class="bullet-list">
-        <li>Developed and improved frontend and backend components for web applications using modern web technologies.</li>
-        <li>Collaborated with developers to design and deploy scalable web solutions and integrate APIs.</li>
-        <li>Contributed to UI/UX improvements, enhancing usability and overall user experience.</li>
-        <li>Assisted in database management, testing, and hosting workflows during project development.</li>
+        <li>Developed, tested, and validated frontend and backend features to ensure application functionality and reliability.</li>
+        <li>Collaborated with developers to identify, debug, and resolve software issues during development and deployment.</li>
+        <li>Assisted in testing, database validation, and deployment activities to support stable software releases.</li>
+        <li>Improved user experience by identifying UI issues and validating implemented fixes.</li>
+    </ul>
+
+    <div class="item-header">
+        <span>GRN Properties &mdash; Real Estate Marketplace &amp; CRM Platform</span>
+    </div>
+    <div class="item-sub">
+        <span>Freelance Project | Solo Developer | Next.js, Firebase, Firestore</span>
+        <span>Aug 2026 &ndash; Sep 2026</span>
+    </div>
+    <ul class="bullet-list">
+        <li>Performed functional, regression, UI, authentication, and end-to-end testing across customer and admin workflows.</li>
+        <li>Tested property listings, enquiries, site visits, role-based access, and form validations, identifying and resolving defects.</li>
+        <li>Validated Firebase Authentication, Firestore data, security rules, and API/database workflows to ensure reliable application behavior.</li>
+        <li>Independently handled test planning, defect debugging, retesting, and production validation before deployment.</li>
+    </ul>
+
+    <div class="section-title">Skills &amp; Interests</div>
+    <ul class="skills-list">
+        <li><strong>Programming:</strong> Python, JavaScript, SQL</li>
+        <li><strong>CS Fundamentals:</strong> OOP, Data Structures &amp; Algorithms, Problem Solving</li>
+        <li><strong>Test Automation:</strong> Python, PyTest, Automated Test Cases, API Test Automation</li>
+        <li><strong>Software Testing:</strong> Smoke Testing, Manual testing, Functional Testing, Test case Design, Bug Reporting, Regression testing</li>
+        <li><strong>Web Technologies:</strong> HTML5, CSS3, React, Node.js, Express.js, REST API’s</li>
+        <li><strong>AI/GenAI:</strong> OpenAI API, LLMs, Prompt Engineering, Ollama, AI-assisted Test Generation</li>
+        <li><strong>Tools:</strong> Git, GitHub, VS Code, JIRA (Basic), Postman</li>
+        <li><strong>Concepts:</strong> SDLC, Debugging, API Validation, Agile Basics</li>
+        <li><strong>Leadership &amp; Management:</strong> Student Council Member; Vice President of Developers Club</li>
+        <li><strong>Achievements:</strong> Internal Winner &ndash; Smart India Hackathon 2025</li>
     </ul>
 
     <div class="section-title">Projects</div>
-    
     <div class="item-header">
-        <span>AI-Powered Satellite Tracking Dashboard (Sat-LM) <a href="https://github.com/harshada9270/Sat-LM" style="font-weight: normal; font-size: 9pt; text-decoration: underline;">GitHub</a></span>
+        <span>AI-Powered Satellite Tracking Dashboard (Sat-LM) <a href="https://github.com/harshada9270/Sat-LM" target="_blank" style="font-weight: normal; font-size: 8.8pt; color: #0000ee; text-decoration: underline;">Github</a></span>
     </div>
     <div class="item-sub">
-        <span>(React, Vite, Node.js, Express, satellite.js, Ollama, TailwindCSS)</span>
+        <span>(React, Vite, Node.js, Express, satellite.js, Ollama)</span>
     </div>
     <ul class="bullet-list">
-        <li>Designed and implemented REST APIs for satellite data retrieval, caching, and periodic updates using Express.js.</li>
-        <li>Integrated a local LLM pipeline that grounds responses using live satellite telemetry instead of static prompts.</li>
-        <li>Designed a responsive dashboard capable of visualizing continuously updated orbital data.</li>
-    </ul>
-
-    <div class="item-header">
-        <span>PDF RAG Chatbot <a href="https://github.com/harshada9270" style="font-weight: normal; font-size: 9pt; text-decoration: underline;">GitHub</a></span>
-    </div>
-    <div class="item-sub">
-        <span>(Python, FastAPI, Sentence Transformers, ChromaDB, Ollama)</span>
-    </div>
-    <ul class="bullet-list">
-        <li>Bulit a PDF-based Retrieval-Augmented Generation (RAG) chatbot for context-aware question answering.</li>
-        <li>Implemented PDF text extraction, recursive chunking, local embeddings, and ChromaDB vector storage.</li>
-        <li>Added JWT authentication, document management, chat history, and RAG pipeline monitoring.</li>
+        <li>Debugged frontend and backend issues, verified application workflows, and validated data accuracy across different user interactions.</li>
+        <li>Built and integrated REST APIs for fetching, processing, and caching satellite data to ensure reliable application performance.</li>
+        <li>Verified application workflows, validated API responses, and debugged frontend and backend issues to improve application reliability.</li>
     </ul>
 
     <div class="section-title">Certifications</div>
     <ul class="cert-list">
-        <li>Internal Smart India Hackathon 4th Place holder 2025</li>
-        <li>Apna College Delta Course 2025</li>
-        <li>Introduction to Generative AI: Google Cloud, 2025</li>
-        <li>Microsoft Cloud Security Masterclass: Ernst &amp; Young, Feb 2025</li>
-        <li>Web Development Fundamentals: IBM Skills Build, Oct, 2024</li>
+        <li><strong>Introduction to Generative AI:</strong> Google Cloud, 2025</li>
+        <li><strong>TATA Crucible Campus Quiz 2025:</strong> Tata Group, 2025</li>
     </ul>
 
 </body>

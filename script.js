@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
         animateCursor();
         
-        document.querySelectorAll('a, button, input, textarea, .menu-toggle, .stat-card, .project-card, .skill-card').forEach(el => {
+        document.querySelectorAll('a, button, input, textarea, .menu-toggle, .stat-card, .project-card, .skill-card, .skill-cat-card, .cert-card, .skill-tag').forEach(el => {
             el.addEventListener('mouseenter', () => {
                 cursorOutline.classList.add('hover-state');
                 cursorDot.classList.add('hover-state');
